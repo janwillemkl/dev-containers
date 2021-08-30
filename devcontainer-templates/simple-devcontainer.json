@@ -1,0 +1,10 @@
+{
+    "name": "<name>",
+    "image": "<docker_image>", // alternatively use "dockerFile"
+    "runArgs": [
+        "--name", "<container_name>"
+    ],
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "workspaceFolder": "/workspace",
+    "extensions": []
+}
